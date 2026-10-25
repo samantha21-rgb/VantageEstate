@@ -1,0 +1,9 @@
+VantageEstate project notes
+
+This revision keeps the existing multi-page project and its local assets. The homepage hero copy is more direct and Nairobi-specific, and the homepage search now includes a bedroom-count filter alongside buy/rent, location, and property type.
+
+Before publishing publicly:
+1. Verify every property listing, price, location, size, and availability. Current property cards are demonstration content and must not be presented as confirmed inventory.
+2. Replace any stock/demo agent profiles, testimonials, contact details, and company claims with approved information.
+3. Connect enquiry forms to a real email/API endpoint; front-end validation alone does not deliver enquiries.
+4. Test all pages at mobile, tablet, and desktop widths, and verify navigation and all image paths after deployment.

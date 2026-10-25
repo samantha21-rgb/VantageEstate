@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VantageEstate | Where Vision Meets Value</title>
+  <meta name="description" content="Search homes and apartments for sale or rent across Nairobi with VantageEstate. Compare property details and arrange a viewing.">
+  <meta name="theme-color" content="#102c26">
+  <link href="assets/img/property.png" rel="icon">
+  <link href="assets/img/property.png" rel="apple-touch-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/vantageestate.css" rel="stylesheet">
+</head>
+<body class="index-page">
+<header id="header" class="header ve-header">
+  <div class="container ve-nav-wrap">
+    <a href="index.html" class="ve-brand" aria-label="VantageEstate home"><span class="ve-brand-mark"><i class="bi bi-buildings"></i></span><span>Vantage<span class="ve-brand-light">Estate</span><small>PROPERTY, WITH PERSPECTIVE</small></span></a>
+    <button class="ve-menu-toggle" aria-label="Open navigation" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <nav class="ve-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a><a href="properties.html">Properties</a><a href="about.html">Our story</a><a href="services.html">Services</a><a href="agents.html">Our experts</a>
+      <a class="ve-nav-cta" href="contact.html">Let’s talk </a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="ve-hero">
+    <div class="ve-hero-image" role="img" aria-label="Contemporary luxury home surrounded by greenery"></div>
+    <div class="ve-hero-shade"></div>
+    <div class="container ve-hero-inner">
+      <div class="ve-eyebrow"><span></span> Homes for sale and rent across Nairobi</div>
+      <h1>Find your place<br><em>Make it yours.</em></h1>
+      <p class="ve-hero-copy">Explore homes across Nairobi, compare your options, and find a property that fits the way you want to live.</p>
+      <div class="ve-hero-actions"><a class="ve-button ve-button-gold" href="#featured">Explore properties </a> <a class="ve-button ve-button outline" href="contact.html">Speak to our team </a></div>
+      <div class="ve-hero-note"><span class="ve-note-line"></span><span>Thoughtful guidance. Properties worth considering.</span></div>
+    </div>
+  </section>
+
+
+  <section class="ve-search-band" aria-label="Find a property">
+    <div class="container">
+      <form id="property-search" class="ve-search-panel">
+        <div class="ve-search-intro"><span class="ve-kicker">YOUR NEXT ADDRESS</span><strong>Find a property</strong></div>
+        <label class="ve-field"><span>I'm looking to</span><select id="search-type"><option value="all">Buy or rent</option><option value="sale">Buy a home</option><option value="rent">Rent a home</option></select></label>
+        <label class="ve-field"><span>Location or keyword</span><div class="ve-input-icon"><i class="bi bi-geo-alt"></i><input id="search-location" type="search" placeholder="e.g. Karen, Kilimani"></div></label>
+        <label class="ve-field"><span>Property type</span><select id="search-kind"><option value="all">Any property</option><option value="apartment">Apartment</option><option value="house">House / villa</option><option value="townhouse">Townhouse</option></select></label>
+        <label class="ve-field"><span>Bedrooms</span><select id="search-beds"><option value="all">Any</option><option value="1">1+ bedrooms</option><option value="2">2+ bedrooms</option><option value="3">3+ bedrooms</option><option value="4">4+ bedrooms</option></select></label>
+        <button class="ve-button ve-button-dark" type="submit"><i class="bi bi-search"></i> Search</button>
+      </form>
+    </div>
+  </section>
+  <section id="featured" class="ve-section ve-featured">
+    <div class="container">
+      <div class="ve-section-heading" data-aos="fade-up"><div><span class="ve-kicker">EXPLORE PROPERTIES</span><h2>Find a home<br><em>that feels right.</em></h2></div><div class="ve-heading-side"><p>Explore a curated selection of homes across Nairobi. Compare the details, discover the possibilities, and find a property that suits your lifestyle.</p><a class="ve-underlink" href="properties.html">View all properties </a></div></div>
+      <div class="ve-filter-row"><span id="property-count" aria-live="polite">Properties available to explore</span><div class="ve-filter-pills"><button class="active" data-filter="all">All properties</button><button data-filter="sale">For sale</button><button data-filter="rent">For rent</button></div></div>
+      <div class="row g-4 ve-property-grid" id="property-grid">
+        <div class="col-md-6 col-xl-3 ve-property" data-type="sale" data-kind="house" data-beds="4" data-location="Karen Nairobi" data-aos="fade-up">
+          <article class="ve-property-card"><a class="ve-property-image" href="property-single.html"><img src="assets/img/properties/property-1.jpg" alt="Contemporary residence with landscaped grounds" loading="lazy"><span class="ve-badge">FEATURED</span></a><button class="ve-favourite" aria-label="Save Karen Garden House" aria-pressed="false"><i class="bi bi-heart"></i></button><div class="ve-property-content"><div class="ve-property-meta"><span><i class="bi bi-geo-alt"></i> Karen, Nairobi</span><span class="ve-status">For sale</span></div><h3><a href="property-single.html">Karen Garden House</a></h3><p class="ve-price">KSh 48,500,000</p><div class="ve-property-specs"><span><i class="bi bi-door-open"></i> 4 beds</span><span><i class="bi bi-droplet"></i> 3 baths</span><span><i class="bi bi-arrows-angle-expand"></i> 310 m²</span></div></div></article>
+        </div>
+        <div class="col-md-6 col-xl-3 ve-property" data-type="sale" data-kind="apartment" data-beds="3" data-location="Kilimani Nairobi" data-aos="fade-up" data-aos-delay="80">
+          <article class="ve-property-card"><a class="ve-property-image" href="property-single.html"><img src="assets/img/properties/property-2.jpg" alt="Elegant modern apartment building" loading="lazy"><span class="ve-badge ve-badge-light">CITY LIVING</span></a><button class="ve-favourite" aria-label="Save Kilimani House" aria-pressed="false"><i class="bi bi-heart"></i></button><div class="ve-property-content"><div class="ve-property-meta"><span><i class="bi bi-geo-alt"></i> Kilimani, Nairobi</span><span class="ve-status">For sale</span></div><h3><a href="property-single.html">The Kilimani House</a></h3><p class="ve-price">KSh 16,800,000</p><div class="ve-property-specs"><span><i class="bi bi-door-open"></i> 3 beds</span><span><i class="bi bi-droplet"></i> 2 baths</span><span><i class="bi bi-arrows-angle-expand"></i> 142 m²</span></div></div></article>
+        </div>
+        <div class="col-md-6 col-xl-3 ve-property" data-type="rent" data-kind="townhouse" data-beds="3" data-location="Lavington Nairobi" data-aos="fade-up" data-aos-delay="160">
+          <article class="ve-property-card"><a class="ve-property-image" href="property-single.html"><img src="assets/img/properties/property-3.jpg" alt="Warm contemporary townhouse" loading="lazy"><span class="ve-badge">MOVE-IN READY</span></a><button class="ve-favourite" aria-label="Save Lavington Courtyard" aria-pressed="false"><i class="bi bi-heart"></i></button><div class="ve-property-content"><div class="ve-property-meta"><span><i class="bi bi-geo-alt"></i> Lavington, Nairobi</span><span class="ve-status">For rent</span></div><h3><a href="property-single.html">Lavington Courtyard</a></h3><p class="ve-price">KSh 45,000 <small>/ month</small></p><div class="ve-property-specs"><span><i class="bi bi-door-open"></i> 3 beds</span><span><i class="bi bi-droplet"></i> 3 baths</span><span><i class="bi bi-arrows-angle-expand"></i> 205 m²</span></div></div></article>
+        </div>
+        <div class="col-md-6 col-xl-3 ve-property" data-type="rent" data-kind="apartment" data-beds="2" data-location="Westlands Nairobi" data-aos="fade-up" data-aos-delay="240">
+          <article class="ve-property-card"><a class="ve-property-image" href="property-single.html"><img src="assets/img/properties/property-4.jpg" alt="Bright modern apartment interior" loading="lazy"><span class="ve-badge ve-badge-light">CITY FAVOURITE</span></a><button class="ve-favourite" aria-label="Save Westlands Skyline" aria-pressed="false"><i class="bi bi-heart"></i></button><div class="ve-property-content"><div class="ve-property-meta"><span><i class="bi bi-geo-alt"></i> Westlands, Nairobi</span><span class="ve-status">For rent</span></div><h3><a href="property-single.html">Westlands Skyline</a></h3><p class="ve-price">KSh 35,500 <small>/ month</small></p><div class="ve-property-specs"><span><i class="bi bi-door-open"></i> 2 beds</span><span><i class="bi bi-droplet"></i> 2 baths</span><span><i class="bi bi-arrows-angle-expand"></i> 96 m²</span></div></div></article>
+        </div>
+      </div>
+      <div class="ve-empty-state" id="no-results" hidden><i class="bi bi-house-exclamation"></i><h3>No exact matches yet</h3><p>Try a different location or adjust your search filters to explore more properties.</p><button class="ve-button ve-button-dark" id="reset-search" type="button">Reset search</button></div>
+    </div>
+  </section>
+  <section class="ve-manifesto">
+    <div class="container"><div class="row align-items-center g-5"><div class="col-lg-6" data-aos="fade-right"><div class="ve-manifesto-image"><img src="assets/img/about-company-1.jpg" alt="Architecture and natural materials meet in a considered living space" loading="lazy"><div class="ve-image-caption"><span>THE VANTAGE STANDARD</span><strong>Good spaces change<br>how life feels.</strong></div></div></div><div class="col-lg-6 ve-manifesto-copy" data-aos="fade-left"><span class="ve-kicker">A DIFFERENT POINT OF VIEW</span><h2>Property is more<br>than <em>an address.</em></h2><p><p>Finding the right property starts with understanding what matters to you. Explore your options, compare the details, and make your next move with confidence.</p>.</p><a class="ve-underlink" href="about.html">Discover the Vantage approach </a><div class="ve-stats"><div><strong>01</strong><span>Personal guidance</span></div><div><strong>02</strong><span>Considered selection</span></div><div><strong>03</strong><span>Clear next steps</span></div></div></div></div></div>
+  </section>
+  <section class="ve-services ve-section"><div class="container"><div class="ve-section-heading"><div><span class="ve-kicker">HERE FOR THE WHOLE JOURNEY</span><h2>Good advice.<br><em>Better decisions.</em></h2></div><div class="ve-heading-side"><p><p>Whether you're buying, renting, or preparing to move, we help you understand your options and take the next step with confidence.</p>.</p></div></div><div class="row g-3"><div class="col-md-4"><a class="ve-service-card" href="properties.html"><i class="bi bi-house-heart"></i><h3>Buy with confidence</h3><p>Find a property that fits your life today and your ambitions for tomorrow.</p><b>Explore buying </b></a></div><div class="col-md-4"><a class="ve-service-card" href="properties.html"><i class="bi bi-key"></i><h3>Rent with clarity</h3><p>Explore well-considered homes and understand the details before you decide.</p><b>Explore rentals </b></a></div><div class="col-md-4"><a class="ve-service-card" href="contact.html"><i class="bi bi-compass"></i><h3>Move with a plan</h3><p>Get practical guidance on your options, your priorities and the next step.</p><b>Talk to our team </b></a></div></div></div></section>
+  <section class="ve-cta"><div class="container"><div class="ve-cta-panel"><div><span class="ve-kicker">YOUR NEXT CHAPTER STARTS HERE</span><h2>Ready to find<br><em>your vantage point?</em></h2></div><div><p><>Share what you're looking for, and let our team help you find a property that fits your plans.</p><a href="contact.html" class="ve-button ve-button-gold">Start a conversation </a></div><div class="ve-cta-orbit"></div></div></div></section>
+</main>
+<footer class="ve-footer"><div class="container"><div class="ve-footer-main"><a href="index.html" class="ve-brand ve-footer-brand"><span class="ve-brand-mark"><i class="bi bi-buildings"></i></span><span>Vantage<span class="ve-brand-light">Estate</span><small>PROPERTY, WITH PERSPECTIVE</small></span></a><p>Thoughtfully selected properties.<br>A clearer way to find your place in Nairobi.</p><div class="ve-footer-contact"><span>LET'S MAKE YOUR NEXT MOVE</span><a href="contact.html">Start a conversation </a></div></div><div class="ve-footer-bottom"><span>© <span id="current-year">2026</span> VantageEstate. All rights reserved.</span><div><a href="properties.html">Properties</a><a href="about.html">Our story</a><a href="contact.html">Contact</a></div><span>Made for the way you want to live.</span></div></div></footer>
+<a href="#" class="ve-back-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/vantageestate.js"></script>
+</body>
+</html>
